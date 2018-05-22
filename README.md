@@ -1,27 +1,13 @@
 # ImageIdentify
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+基於ConvnetJS實作CIFAR-10
+[ConvnetJS官網](https://cs.stanford.edu/people/karpathy/convnetjs/index.html)
 
-## Development server
+## 開發工具
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+node.js
+Angular
 
-## Code scaffolding
+## 功能
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+上傳圖片進行影像辨識分析出圖片屬於10大類中哪一類
